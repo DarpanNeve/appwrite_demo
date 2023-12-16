@@ -1,4 +1,4 @@
-import 'package:appwrite/appwrite.dart';
+import 'package:app write/app write.dart';
 
 class AuthService{
    googleSignIn(){
@@ -15,9 +15,10 @@ class AuthService{
 
      result
          .then((response) {
-       print("appwrite response ${response}");
+       print("app write response ${response}");
      }).catchError((error) {
-       print("appwrite response ${error.response}");
+       print("app write response ${error.response}");
+
      });
    }
 }
