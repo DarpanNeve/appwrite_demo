@@ -1,4 +1,4 @@
-import 'package:app write/app write.dart';
+import 'package:appwrite/appwrite.dart';
 
 class AuthService{
    googleSignIn(){
